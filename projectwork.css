@@ -1,0 +1,120 @@
+body {
+    font-size: 30px;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    color: white;
+}
+
+span.nav {
+    background-color: none;
+
+
+}
+
+nav {
+    background-color: none;
+}
+
+#subject,
+#message {
+    color: rgb(255, 255, 255);
+
+}
+
+.nav1 {
+
+    position: relative;
+    background-color: white;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    justify-content: space-between;
+
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+
+span.nav a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.nav1::before,
+.nav1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc((100% - 95vw) / 2);
+    background-color: white;
+    align-items: center;
+    z-index: -1;
+}
+
+.nav1::before {
+    left: -10px;
+}
+
+.nav1::after {
+    right: -10px;
+}
+
+span {
+
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    padding: 5px;
+}
+
+span:hover {
+    background-color: rgb(209, 212, 212);
+
+
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+
+
+}
+
+#button {
+
+    font-size: 20px;
+    width: 90px;
+    height: 30px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+#message {
+    border-radius: 10px;
+}
+
+html {
+    background-color: rgb(136, 89, 223);
+
+}
